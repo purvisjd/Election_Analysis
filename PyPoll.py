@@ -76,7 +76,7 @@ with open(election_file_load) as election_file:
 
             #format percentage to 1 decimal place
             #print(f'{candidate_name}: received {vote_percentage: .1f}% ({final_votes:,})\n')
-            candidate_results = (f'{candidate_name}: {vote_percentage:.1f}% ({total_votes:,})\n')
+            candidate_results = (f'{candidate_name}: {vote_percentage:.1f}% ({final_votes:,})\n')
             print(candidate_results)
             txt_file.write(candidate_results)
 
